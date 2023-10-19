@@ -3,10 +3,10 @@ import Pill from './Pill'
 export default function ProjectCard() {
     return (
       <>
-        <div className="grid-cols-3 gap-3 h-24 bg-slate-800 rounded p-2 flex">
+        <div className="grid-cols-3 gap-3 h-24 bg-slate-800 rounded-lg p-2 flex shadow-inner-top">
             <p>image here</p>
             <p>text here</p>
-            <p>pill tags here</p>
+            <Pill text="TypeScript"/>
         </div>
       </>
     )
