@@ -17,12 +17,12 @@ export default function Home() {
           <h3>1. About</h3>
           <p>About text goes here</p>
       </div>
-      <div className="flex flex-col gap-2 pt-10">
+      <div className="flex flex-col items-center gap-2 pt-10 w-screen">
         <h3>2. Projects</h3>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+        <ProjectCard title='Game Server Orchestration for Assetto Corsa' subtitle='sub0' tags={['JavaScript', 'Node.js', 'Express.js', 'Docker']} />
+        <ProjectCard title='Reservation Automation Bot' subtitle='sub1' tags={['Python', 'Postman', 'Selenium']}/>
+        <ProjectCard title='Formula 1 Prediction AI' subtitle='sub2' tags={['Python', 'Jupyter', 'Pandas', 'Sci-Kit Learn']}/>
+        <ProjectCard title='MuSpace Web App' subtitle='sub3' tags={['JavaScript', 'React.js', 'Firebase', 'Node.js']}/>
       </div>
 
       
