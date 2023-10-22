@@ -11,7 +11,7 @@ export default function Home() {
         <a>here</a>
       </div>
       <h2 className="pb-10">
-        I&apos;m a Computer Science new graduate with a passion for building.
+        I&apos;m a Computer Science new graduate with a passion for building solutions using tech.
       </h2>
       <div>
           <h3>1. About</h3>
