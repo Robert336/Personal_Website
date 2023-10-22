@@ -14,11 +14,15 @@ export default function Home() {
         I&apos;m a Computer Science new graduate with a passion for building solutions using tech.
       </h2>
       <div className="flex flex-col self-start">
-          <h3>1. About</h3>
-          <p>About text goes here</p>
+        <h3 className="text-lg font-bold text-cyan-500">
+          About
+        </h3>
+        <p>About text goes here</p>
       </div>
       <div className="flex flex-col items-center gap-2 pt-10 w-full">
-        <h3>2. Projects</h3>
+        <h3 className="self-start text-lg font-bold text-cyan-500">
+            Projects
+        </h3>
         <ProjectCard title='Game Server Orchestration for Assetto Corsa' subtitle='sub0' tags={['JavaScript', 'Node.js', 'Express.js', 'Docker']} />
         <ProjectCard title='Reservation Automation Bot' subtitle='sub1' tags={['Python', 'Postman', 'Selenium']}/>
         <ProjectCard title='Formula 1 Prediction AI' subtitle='sub2' tags={['Python', 'Jupyter', 'Pandas', 'Sci-Kit Learn']}/>
