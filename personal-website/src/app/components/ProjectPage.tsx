@@ -1,14 +1,14 @@
 import Pill from './Pill.tsx'
 
+interface ProjectPageProps {
+    tags: Array<string>,
+    title: string,
+    github_url: string,
+    
+
+}
+
 export default function ProjectPage(props: ProjectPageProps){
-
-    interface ProjectPageProps {
-        tags: Array<string>,
-        title: string,
-        github_url: string,
-        
-
-    }
 
     return(
         <>
