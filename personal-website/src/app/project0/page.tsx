@@ -1,9 +1,8 @@
-
+import ProjectPageNav from '../components/ProjectPageNav'
 
 export default function Project0(){
 
     return (
-    <>
-        Project 0 Page.
-    </>)
+    <ProjectPageNav title='project0' github_url='url'/>
+    )
 }
