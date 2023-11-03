@@ -1,0 +1,14 @@
+{
+    "AC-Server" : {
+        "title" : "Assetto Corsa Distributed Game Servers",
+        "sub" : "Streamlining Assetto Corsa game server management and scaling",
+        "tags" : [
+            "JavaScript",
+            "Express.js",
+            "Node.js",
+            "Docker",
+            "Discord.js"
+        ]
+    }
+
+}
