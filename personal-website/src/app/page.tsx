@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import ProjectCard from './components/ProjectCard'
+import projects from '../../public/personalprojects.json'
+
 
 export default function Home() {
   return (
@@ -26,20 +28,9 @@ export default function Home() {
               Personal Projects
           </h3>
           <Link href="/project0" className='w-full'>
-            <ProjectCard title='Game Server Orchestration for Assetto Corsa' subtitle='sub0' tags={['JavaScript', 'Node.js', 'Express.js', 'Docker']} />
+            <ProjectCard title={projects['AC-Server'].title} subtitle={projects['AC-Server'].sub} tags={projects['AC-Server'].tags}/>
           </Link>
-          <Link href="/project1" className='w-full'>
-            <ProjectCard title='Reservation Automation Bot' subtitle='sub1' tags={['Python', 'Postman', 'Selenium']}/>
-          </Link>
-          <Link href='/project2' className='w-full'>
-            <ProjectCard title='Formula 1 Prediction AI' subtitle='sub2' tags={['Python', 'Jupyter', 'Pandas', 'Sci-Kit Learn']}/>
-          </Link>
-          <Link href='/project3' className='w-full'>
-            <ProjectCard title='MuSpace Web App' subtitle='sub3' tags={['JavaScript', 'React.js', 'Firebase', 'Node.js']}/>
-          </Link>
-          <Link href='/project4' className='w-full'>
-            <ProjectCard title='LaurierCS Club Website (v1)' subtitle='sub3' tags={['JavaScript', 'React.js', 'Firebase', 'Node.js']}/>
-          </Link>
+          
         </div>
 
       </div>
