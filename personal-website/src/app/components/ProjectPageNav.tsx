@@ -1,6 +1,6 @@
 import Pill from './Pill.jsx'
 import Link from 'next/link'
-
+import Button from '../components/Button.jsx'
 
 interface ProjectPageNavProps {
     title: string,
@@ -15,9 +15,7 @@ export default function ProjectPageNav(props: ProjectPageNavProps){
                 <h1 className='text-xl font-bold text-center p-2'>
                     {props.title}
                 </h1>
-                <a href={props.github_url} className='p-1 pl-2 pr-2 border rounded hover:bg-white hover:text-gray-900'>
-                    GitHub
-                </a>
+                <Button href={props.github_url} text={props.title}/>
             </div>
 
         </>
