@@ -10,6 +10,70 @@
             "Discord.js"
         ],
         "link" : ""
+    },
+    "LCS-Website" : {
+        "title" : "LaurierCS Club Website",
+        "sub" : "Designed and developed the landing page for the LaurierCS Club",
+        "tags" : [
+            "JavaScript",
+            "React.js",
+            "Firebase",
+            "Styled Components",
+            "HTML",
+            "CSS",
+            "Figma"
+        ]
+    },
+    "Reservation-Bot" : {
+        "title" : "Reservation Automation Bot",
+        "sub" : "Automates doing my bookings to the gym",
+        "tags" : [
+            "Python",
+            "Postman",
+            "Selenium"
+        ]
+    },
+    "Formula1-AI" : {
+        "title" : "Formula 1 Prediction AI",
+        "sub" : "Predicts the winner of a grand prix using historical data",
+        "tags" : [
+            "Python",
+            "Pandas",
+            "Sci-Kit Learn",
+            "Matplotlib",
+            "Jupyter Notebook"
+        ]
+    },
+    "Search-Engine" : {
+        "title" : "Small Search Engine",
+        "sub" : "A small search engine group project for a class project",
+        "tags" : [
+            "Python",
+            "Pandas",
+            "Sci-Kit Learn",
+            "BeautifulSoup"
+        ]
+    },
+    "Password-Manager" : {
+        "title" : "Password Manager Server via Raspberry Pi",
+        "sub" : "Self-hosted password manager on a Raspberry Pi",
+        "tags" : [
+            "Docker",
+            "CloudFlare Tunnel",
+            "Linux"
+        ]
+    },
+    "MuSpace Web App" : {
+        "title" : "MuSpace Web App",
+        "sub" : "Social media app focused on music developed as a class group project",
+        "tags" : [
+            "JavaScript",
+            "React.js",
+            "Firebase",
+            "Spotify API",
+            "Node.js",
+            "Figma"
+        ]
     }
 
 }

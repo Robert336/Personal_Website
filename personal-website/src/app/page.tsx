@@ -32,7 +32,24 @@ export default function Home() {
           <Link href="/project0" className='w-full'>
             <ProjectCard title={projects['AC-Server'].title} subtitle={projects['AC-Server'].sub} tags={projects['AC-Server'].tags}/>
           </Link>
-          
+          <Link href="/project1" className='w-full'>
+            <ProjectCard title={projects['LCS-Website'].title} subtitle={projects['LCS-Website'].sub} tags={projects['LCS-Website'].tags}/>
+          </Link>
+          <Link href="/project2" className='w-full'>
+            <ProjectCard title={projects['Reservation-Bot'].title} subtitle={projects['Reservation-Bot'].sub} tags={projects['Reservation-Bot'].tags}/>
+          </Link>
+          <Link href="/project3" className='w-full'>
+            <ProjectCard title={projects['Formula1-AI'].title} subtitle={projects['Formula1-AI'].sub} tags={projects['Formula1-AI'].tags}/>
+          </Link>
+          <Link href="/project4" className='w-full'>
+            <ProjectCard title={projects['Search-Engine'].title} subtitle={projects['Search-Engine'].sub} tags={projects['Search-Engine'].tags}/>
+          </Link>
+          <Link href="/project5" className='w-full'>
+            <ProjectCard title={projects['Password-Manager'].title} subtitle={projects['Password-Manager'].sub} tags={projects['Password-Manager'].tags}/>
+          </Link>
+          <Link href="/project6" className='w-full'>
+            <ProjectCard title={projects['MuSpace Web App'].title} subtitle={projects['MuSpace Web App'].sub} tags={projects['MuSpace Web App'].tags}/>
+          </Link>
         </div>
 
       </div>
