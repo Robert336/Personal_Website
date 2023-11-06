@@ -1,21 +1,19 @@
-import Pill from './Pill.jsx'
+import Pill from './Pill'
 import Link from 'next/link'
-import Button from '../components/Button.jsx'
+import Button from './Button'
 
 interface ProjectPageNavProps {
     title: string,
-    github_url: string,
 }
 
 export default function ProjectPageNav(props: ProjectPageNavProps){
 
     return(
         <>
-            <div className='flex flex-col items-center justify-center p-3 gap-4 w-full bg-gray-900'>
-                <h1 className='text-xl font-bold text-center p-2'>
+            <div className='flex flex-col items-center justify-center pt-10 gap-4 w-full bg-gray-900'>
+                <h1 className='text-xl font-bold text-center'>
                     {props.title}
                 </h1>
-                <Button href={props.github_url} text={props.title}/>
             </div>
 
         </>
