@@ -621,9 +621,6 @@ video {
 .gap-4 {
   gap: 1rem;
 }
-.gap-5 {
-  gap: 1.25rem;
-}
 .self-start {
   align-self: flex-start;
 }
