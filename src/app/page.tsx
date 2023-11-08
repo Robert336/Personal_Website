@@ -26,8 +26,10 @@ export default function Home() {
           </h3>
           <p>
             I started coding in highschool and loved the capability of software to solve problems.
-            I've recently completed my BSc in Computer Science which gave me valuable knowledge
-            of operating systems, networking, 
+            Completing my BSc in Computer Science gave me a solid foundation
+            of operating systems, networking, data visualization, and many more computing topics. Buliding upon my schooling,
+            I enjoy continuing to expand my skillset through personal projects where experiment with new technologies to solve small problems.
+            For instance, this personal website was built to learn TypeScript, Next.js, and Tailwind CSS while also solving my problem of not having a personal website.
           </p>
         </div>
         <div className="flex flex-col items-center gap-2 pt-10 w-full">
