@@ -3,6 +3,7 @@ import Link from 'next/link'
 import ProjectCard from './components/ProjectCard'
 import projects from '../../public/personalprojects.json'
 import Button from './components/Button'
+import CopyButton from './components/CopyButton'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="flex flex-row pb-5 gap-3">
           <Button text='GitHub' href="https://github.com/Robert336"/>
           <Button text='LinkedIn' href="https://www.linkedin.com/in/robert-mazza-6a8063203/"/>
-          <Button text='rmazza33@gmail.com' href="rmazza33@gmail.com"/>
+          <CopyButton text='rmazza33@gmail.com' toCopy='rmazza33@gmail.com' />
         </div>
         
         <div className="flex flex-col self-start">
