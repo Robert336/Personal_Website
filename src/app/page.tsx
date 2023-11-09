@@ -12,7 +12,6 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-sky-500 bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text pb-5">Robert Mazza</h1>
         <h2 className="text-center pb-5">
           Hi, welcome to my personal website! 
-          I&apos;m a Computer Science new graduate with a passion for building solutions using tech.
         </h2>
         <div className="flex flex-wrap justify-center pb-5 gap-3">
           <Button text='GitHub' href="https://github.com/Robert336"/>
@@ -24,12 +23,10 @@ export default function Home() {
           <h3 className="self-center text-xl font-bold text-cyan-500">
             About me
           </h3>
-          <p>
-            I started coding in highschool and loved the capability of software to solve problems.
-            Completing my BSc in Computer Science gave me a solid foundation
-            of operating systems, networking, data visualization, and many more computing topics. Buliding upon my schooling,
-            I enjoy continuing to expand my skillset through personal projects where experiment with new technologies to solve small problems.
-            For instance, this personal website was built to learn TypeScript, Next.js, and Tailwind CSS while also solving my problem of not having a personal website.
+          <p className='text-center'>
+            
+            I&apos;m a Computer Science new graduate with a passion for solving problems.
+            I strive to build solutions that have valuable impact and challange my skills along the way.
           </p>
         </div>
         <div className="flex flex-col items-center gap-2 pt-10 w-full">
