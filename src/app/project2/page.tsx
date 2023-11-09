@@ -25,7 +25,14 @@ export default function Project2(){
                         Overview
                     </h2>
                     <p>
-                        
+                        During university I faced the problem of not being able to workout due to a reservation system that would fill
+                        in less than 1 minute when time-slots where released. To make matters worse, the reservations opened at
+                        7am everyday. So I decieded to automate the whole process to run automatically within milliseconds of the new openings.
+                        The first prototype used Selenium to automatically open chrome, login, and reserve my spot. Becuase I wanted to make the 
+                        bot even faster I decied to use the chrome dev tools to disect the API requests from the reservation website. I then used
+                        the Python requests library to login and capture my session cookie to then send POST requests for all my reservations authenticated
+                        by my session cookie. This took the reservation time from 10 seconds to less than 2 seconds. I never missed a reservation again!
+
                     </p>
                     {/* <Button href={project.link} text='View on GitHub'/> */}
                 </div>
