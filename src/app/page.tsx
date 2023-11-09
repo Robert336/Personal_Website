@@ -24,7 +24,6 @@ export default function Home() {
             About me
           </h3>
           <p className='text-center'>
-            
             I&apos;m a Computer Science new graduate with a passion for solving problems.
             I strive to build solutions that have valuable impact and challange my skills along the way.
           </p>

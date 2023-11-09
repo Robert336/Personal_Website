@@ -25,7 +25,9 @@ export default function Project1(){
                         Overview
                     </h2>
                     <p>
-                        
+                      The club exexutives wanted a new landing page for students looking for more information. I collaborated with the club executives to
+                      design a mock-up in Figma that they were happy with. Upon sign-off I then developed the website in less that 2 days using JavaScript, React.js, and Styled Components.
+                      The site was not perfect but it was my first time learning and applying React.js to a project.
                     </p>
                     {/* <Button href={project.link} text='View on GitHub'/> */}
                 </div>
