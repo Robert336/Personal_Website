@@ -9,7 +9,7 @@ export default function Project0(){
 
     return (
         <>
-            <main className='flex flex-col items-center bg-gray-900 min-h-screen' >
+            <main className='flex flex-col items-center bg-zinc-900 min-h-screen' >
                 <ProjectPageNav title='Assetto Corsa Distributed Game Servers'/>
 
                 <div className='flex flex-col items-center p-4 md:max-w-3xl'>

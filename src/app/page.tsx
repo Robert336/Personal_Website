@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen max-w-screen bg-zinc-900">
       <div className="flex flex-col items-center p-4 pt-10 max-w-2xl">
-        <h1 className="text-4xl font-bold text-sky-500 bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text pb-5">Robert Mazza</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-sky-500 bg-gradient-to-r from-cyan-500 to-blue-500 text-transparent bg-clip-text pb-5">Robert Mazza</h1>
         <div className="flex flex-wrap justify-center pb-5 gap-3">
           <Button text='GitHub' href="https://github.com/Robert336"/>
           <Button text='LinkedIn' href="https://www.linkedin.com/in/robert-mazza-6a8063203/"/>
