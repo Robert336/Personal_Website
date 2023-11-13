@@ -25,7 +25,7 @@ export default function Project4(){
                         Overview
                     </h2>
                     <p>
-                        
+                        This project was completed as a team of 3 for a class project in our Search Engine and Text Retreval course. 
                     </p>
                     {/* <Button href={project.link} text='View on GitHub'/> */}
                 </div>
