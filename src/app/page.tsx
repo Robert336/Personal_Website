@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-center pb-5 gap-3">
           <Button text='GitHub' href="https://github.com/Robert336"/>
           <Button text='LinkedIn' href="https://www.linkedin.com/in/robert-mazza-6a8063203/"/>
-          {/* <CopyButton text='rmazza33@gmail.com' toCopy='rmazza33@gmail.com' /> */}
+          <CopyButton text='rmazza33@gmail.com' toCopy='rmazza33@gmail.com' />
         </div>
         
         <div className="flex flex-col self-start">
