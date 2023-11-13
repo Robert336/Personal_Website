@@ -26,6 +26,11 @@ export default function Project4(){
                     </h2>
                     <p>
                         This project was completed as a team of 3 for a class project in our Search Engine and Text Retreval course. 
+                        The project has features for collecting documents, indexing documents, searching, model training, and link prediction.
+                        Collecting documents uses Python requests and BeautifulSoup 4 to crawl and scrape the web. The index funtion creates an inverted index to map
+                        between words and the documents they appear. The search function uses soundex, the inverted index created previously, and a TF-IDF Vectorizer to
+                        determine the cosine similarity between each vector that represents the query and each document. The similarities found by the TF-IDF Vectorizer
+                        are used to rank the documents accordingly and return the top 3 documents.
                     </p>
                     {/* <Button href={project.link} text='View on GitHub'/> */}
                 </div>
