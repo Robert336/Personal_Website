@@ -25,7 +25,11 @@ export default function Project5(){
                         Overview
                     </h2>
                     <p>
-                        
+                        I used LastPass or 1Password to manage my passwords for the last 5+ years, but recently I didn&apos;t like the idea
+                        of having all my passwords stored on someone else&apos;s servers. I also had been looking to use a Raspberry Pi that
+                        had been sitting around, so I decied to implement my own personal password manager server. I found an open-source 
+                        password manager Vaultwarden and decided to implement it. The Raspberry Pi is running 3 Docker containers, a container for
+                        Vaultwarden, a container for Cloudfire&apos;s Zero Trust Tunnel, and a container that creates encrypted backups of the password database.
                     </p>
                     {/* <Button href={project.link} text='View on GitHub'/> */}
                 </div>
