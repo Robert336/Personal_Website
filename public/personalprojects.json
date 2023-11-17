@@ -9,7 +9,7 @@
             "Docker",
             "Discord.js"
         ],
-        "link" : ""
+        "link" : "https://github.com/Robert336/H2H-API"
     },
     "LCS-Website" : {
         "title" : "LaurierCS Club Website",
@@ -22,7 +22,8 @@
             "HTML",
             "CSS",
             "Figma"
-        ]
+        ],
+        "link" : ""
     },
     "Reservation-Bot" : {
         "title" : "Reservation Automation Bot",
@@ -31,7 +32,8 @@
             "Python",
             "Postman",
             "Selenium"
-        ]
+        ],
+        "link" : "https://github.com/Robert336/AthleticsCentreBot"
     },
     "Formula1-AI" : {
         "title" : "Formula 1 Prediction AI",
@@ -42,7 +44,8 @@
             "Sci-Kit Learn",
             "Matplotlib",
             "Jupyter Notebook"
-        ]
+        ],
+        "link" : "https://github.com/Robert336/Formula1-AI-CP468"
     },
     "Search-Engine" : {
         "title" : "Small Search Engine",
@@ -52,7 +55,8 @@
             "Pandas",
             "Sci-Kit Learn",
             "BeautifulSoup"
-        ]
+        ],
+        "link" : "https://github.com/Robert336/Small-Search-Engine-CP423"
     },
     "Password-Manager" : {
         "title" : "Password Manager Server via Raspberry Pi",
@@ -61,7 +65,8 @@
             "Docker",
             "CloudFlare Tunnel",
             "Linux"
-        ]
+        ],
+        "link" : ""
     },
     "MuSpace Web App" : {
         "title" : "MuSpace Web App",
@@ -73,7 +78,8 @@
             "Spotify API",
             "Node.js",
             "Figma"
-        ]
+        ],
+        "link" : "https://github.com/SherRao/MuSpace"
     }
 
 }
